@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Interstellar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-header">
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="images/LOGO_Blue_00000.png" class="logo" alt="Logo del planeta Saturno">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">El Universo</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="galaxias.html">Galaxias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="elsol.html">El Sol</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Nuestro Planeta e Imagenes del Universo
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="planetatierra.html">Planeta Tierra</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container-contacto">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="formularioparallenar">
+                    <label for="name">Nombre y Apellido:</label>
+                    <p><input type="text" name="nombre" placeholder="Santiago Fernandez" id="nombre" required></p>
+                    <label for="email">Ingrese su email:</label>
+                    <p><input type="email" name="correo" placeholder="ejemplo@email.com" id="correo" required></p>
+                    <label for="mensaje">¿Quisiera saber mas acerca del Universo?:</label>
+                    <p><textarea name="mensaje" cols="40" rows="10" placeholder="Comentarios." id='mensaje'
+                            required></textarea>
+                    </p>
+                    <input type="reset" value="Limpiar Formulario">
+                    <input type="submit" id="button" value="Enviar mensaje">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="logopaginawep">
+                    <img src="images/LOGO_Blue_00000.png" alt="Logo de la pagina">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="container-footer">
+        <div class="row">
+            <div class="col-sm-12">
+                <p> &copy 2022 The Universe|Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script type="text/javascript">
+        emailjs.init('user_yr60XoEvXDhn3XILbDPE7')
+    </script>
+    
+    <script>
+        const btn = document.getElementById('button');
+        const nombre = document.getElementById('nombre');
+        const correo = document.getElementById('correo');
+        const mensaje = document.getElementById('mensaje');
+        
+        document.getElementById('form')
+            .addEventListener('submit', function (event) {
+                event.preventDefault();
+                btn.value = 'Enviando...';
+                const serviceID = 'default_service';
+                const templateID = 'template_3bsuk1j';
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Enviar mensaje';
+                        alert('¡Gracias por su comentario!');
+                        nombre.value = '';
+                        correo.value = '';
+                        mensaje.value = '';
+                    }, (err) => {
+                        btn.value = 'Enviar mensaje';
+                        alert(JSON.stringify(err));
+                    });
+            });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
