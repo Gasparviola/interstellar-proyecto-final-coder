@@ -58,18 +58,21 @@ a{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
 }
 
+.fotouniverso:hover{
+    box-shadow: 1px 3px 5px 5px gray;
+}
 
 .fotoorigen img{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
 }
 
-
+.fotoorigen:hover{
+    box-shadow: 1px 3px 5px 5px gray;
+}
 
 .container-galaxias{
     padding: 15px 15px 15px 15px;
@@ -86,6 +89,8 @@ a{
     padding: 40px 0px 0px 10px;
 }
 
+
+
 .galaxiaEspiral{
     display: flex;
     flex-direction: column;
@@ -100,9 +105,11 @@ a{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
 }
 
+.fotogalaxiaespiral:hover{
+    box-shadow: 1px 3px 5px 5px gray;
+}
 
 .galaxiaEliptica{
     display: flex;
@@ -113,11 +120,15 @@ a{
 }
 
 
+
 .fotogalaxiaelip img{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
+}
+
+.fotogalaxiaelip:hover{
+    box-shadow: 1px 3px 5px 5px gray;
 }
 
 .galaxiaIrregular{
@@ -129,11 +140,15 @@ a{
 }
 
 
+
 .fotogalaxiairreg img{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
+}
+
+.fotogalaxiairreg:hover{
+    box-shadow: 1px 3px 5px 5px gray;
 }
 
 .quasar{
@@ -144,11 +159,15 @@ a{
 }
 
 
+
 .fotoquasar img{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
+}
+
+.fotoquasar:hover{
+    box-shadow: 1px 3px 5px 5px gray;
 }
 
 .viaLactea{
@@ -164,7 +183,10 @@ a{
     height: 100%;
     width: 100%;
     border: white solid 1px;
-    border-radius: 15px;
+}
+
+.fotovialactea:hover{
+    box-shadow: 1px 3px 5px 5px gray;
 }
 
 .container-elsol{
@@ -188,16 +210,21 @@ a{
     border: solid 1px white;
     height: 100%;
     width: 100%;
-    border-radius: 25px;
 }
 
 
+.fotodelSol:hover{
+    box-shadow: 1px 3px 5px 5px gray;
+}
 
 .sistemasolar img{
     border: solid 1px white;
     height: 100%;
     width: 100%;
-    border-radius: 25px;
+}
+
+.sistemasolar:hover{
+    box-shadow: 1px 3px 5px 5px gray;
 }
 
 .container-tierra{
@@ -209,16 +236,21 @@ a{
 .fotodelatierra img{
     height: 100%;
     width: 100%;
-    border-radius: 20px;
     border: solid 1px white;
 }
 
+.fotodelatierra:hover{
+    box-shadow: 1px 3px 5px 5px gray;
+}
 
 .nuestroplaneta img{
     height: 100%;
     width: 100%;
-    border-radius: 20px;
     border: solid 1px white;
+}
+
+.nuestroplaneta:hover{
+    box-shadow: 1px 3px 5px 5px gray;
 }
 
 .container-galeria{
