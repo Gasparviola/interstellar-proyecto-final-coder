@@ -1,366 +1,373 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(images/Space-stars-light-universe_2880x1800.jpg);
-    background-size: auto;
-    color: rgb(255, 255, 255);
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(images/Space-stars-light-universe_2880x1800.jpg);
+  background-size: auto;
+  color: white;
 }
 
-
-.logo{
-    height: 150px;
-    margin-left: 60px;
-    border-radius: 70px;
+body .container-header .logo {
+  height: 150px;
+  margin-left: 60px;
+  border-radius: 70px;
 }
 
-
-.nav{
-    border-radius: 10px;
-    border: 2px solid white;
-    background: #3f51b5;
+body .container-header nav {
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
-
-ul{
-    list-style: none;
-    font-weight: bold;
-    padding: 10px 0px 10px 8px;
+body .container-header nav ul {
+  list-style: none;
+  font-weight: bold;
+  padding: 10px 0px 10px 8px;
 }
 
-li{
-    display: inline;
-    padding: 15px;
+body .container-header nav ul li {
+  display: inline;
+  padding: 15px;
 }
 
-a{
-    text-decoration: none;
-    color: ghostwhite;
-    font-weight: bold;
+body .container-header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
-
-
-.container-index{
-    padding: 15px 15px 15px 15px;
+body .container-index {
+  padding: 15px 15px 15px 15px;
 }
 
-
-
-.fotouniverso img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-index .fotouniverso img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotouniverso:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-index .fotouniverso:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.fotoorigen img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-index .fotoorigen img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotoorigen:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-index .fotoorigen:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.container-galaxias{
-    padding: 15px 15px 15px 15px;
-
+body .container-galaxias {
+  padding: 15px 15px 15px 15px;
 }
 
-.titulo{
-    text-align: center;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .titulo {
+  text-align: center;
+  padding: 40px 0px 0px 10px;
 }
 
-.distintasGalaxias{
-    text-align: center;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .distintasGalaxias {
+  text-align: center;
+  padding: 40px 0px 0px 10px;
 }
 
-
-
-.galaxiaEspiral{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .galaxiaEspiral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 40px 0px 0px 10px;
 }
 
-
-
-.fotogalaxiaespiral img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-galaxias .fotogalaxiaespiral img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotogalaxiaespiral:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-galaxias .fotogalaxiaespiral:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.galaxiaEliptica{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .galaxiaEliptica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 40px 0px 0px 10px;
 }
 
-
-
-.fotogalaxiaelip img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-galaxias .fotogalaxiaelip img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotogalaxiaelip:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-galaxias .fotogalaxiaelip:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.galaxiaIrregular{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .galaxiaIrregular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 40px 0px 0px 10px;
 }
 
-
-
-.fotogalaxiairreg img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-galaxias .fotogalaxiairreg img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotogalaxiairreg:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-galaxias .fotogalaxiairreg:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.quasar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .quasar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0px 0px 10px;
 }
 
-
-
-.fotoquasar img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-galaxias .fotoquasar img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotoquasar:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-galaxias .fotoquasar:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.viaLactea{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 0px 0px 10px;
+body .container-galaxias .viaLactea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 0px 0px 10px;
 }
 
-
-.fotovialactea img{
-    height: 100%;
-    width: 100%;
-    border: white solid 1px;
+body .container-galaxias .fotovialactea img {
+  height: 100%;
+  width: 100%;
+  border: white solid 1px;
 }
 
-.fotovialactea:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-galaxias .fotovialactea:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.container-elsol{
-    padding: 15px 15px 15px 15px;
+body .container-elsol {
+  padding: 15px 15px 15px 15px;
 }
 
-
-.elSol{
-    text-align: center;
-    padding: 40px 0px 0px 10px;
+body .container-elsol .elSol {
+  text-align: center;
+  padding: 40px 0px 0px 10px;
 }
 
-.nuestraEstrella{
-    text-align: center;
-    padding: 40px 0px 0px 10px;
+body .container-elsol .nuestraEstrella {
+  text-align: center;
+  padding: 40px 0px 0px 10px;
 }
 
-
-
-.fotodelSol img{
-    border: solid 1px white;
-    height: 100%;
-    width: 100%;
+body .container-elsol .fotodelSol img {
+  border: solid 1px white;
+  height: 100%;
+  width: 100%;
 }
 
-
-.fotodelSol:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-elsol .fotodelSol:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.sistemasolar img{
-    border: solid 1px white;
-    height: 100%;
-    width: 100%;
+body .container-elsol .sistemasolar img {
+  border: solid 1px white;
+  height: 100%;
+  width: 100%;
 }
 
-.sistemasolar:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-elsol .sistemasolar:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.container-tierra{
-    padding: 15px 15px 15px 15px;
+body .container-tierra {
+  padding: 15px 15px 15px 15px;
 }
 
-
-
-.fotodelatierra img{
-    height: 100%;
-    width: 100%;
-    border: solid 1px white;
+body .container-tierra .fotodelatierra img {
+  height: 100%;
+  width: 100%;
+  border: solid 1px white;
 }
 
-.fotodelatierra:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-tierra .fotodelatierra:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.nuestroplaneta img{
-    height: 100%;
-    width: 100%;
-    border: solid 1px white;
+body .container-tierra .nuestroplaneta img {
+  height: 100%;
+  width: 100%;
+  border: solid 1px white;
 }
 
-.nuestroplaneta:hover{
-    box-shadow: 1px 3px 5px 5px gray;
+body .container-tierra .nuestroplaneta:hover {
+  -webkit-box-shadow: 1px 3px 5px 5px gray;
+          box-shadow: 1px 3px 5px 5px gray;
 }
 
-.container-galeria{
-    padding: 15px 15px 15px 15px;
+body .container-galeria {
+  padding: 15px 15px 15px 15px;
 }
 
-
-.agujeronegrosupermasivo img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .agujeronegrosupermasivo img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.andromeda img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .andromeda img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.hombreenlaluna img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .hombreenlaluna img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-
-.hombreenlaluna2 img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .hombreenlaluna2 img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-
-.telescopio img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .telescopio img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.canicaazul img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .canicaazul img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.jupiter img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .jupiter img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.agujeronegroreal img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .agujeronegroreal img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.supernova img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .supernova img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.lunayhombre img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .lunayhombre img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-
-.tierrayespacio img{
-    height: 110vh;
-    width: 100%;
-    border-radius: 15px;
-    border: solid 1px white;
+body .container-galeria .tierrayespacio img {
+  height: 110vh;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px white;
 }
 
-.container-contacto{ 
-    padding: 30px 15px 15px 15px;
+body .container-contacto {
+  padding: 30px 15px 15px 15px;
 }
 
-.formularioparallenar{
-    text-align: center;
-    border-radius: 40px;
-    background: hsl(233deg 68% 14% / 84%);
-    color: white(0, 0, 0);
+body .container-contacto .formularioparallenar {
+  text-align: center;
+  border-radius: 40px;
+  background: rgba(15, 27, 114, 0.84);
+  color: white(0, 0, 0);
 }
 
-
-.logopaginawep img{
-    height: 100%;
-    width: 100%;
+body .container-contacto .logopaginawep img {
+  height: 100%;
+  width: 100%;
 }
-
+/*# sourceMappingURL=style.css.map */
