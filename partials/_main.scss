@@ -1,0 +1,248 @@
+.container-index {
+    padding: 15px 15px 15px 15px;
+    
+    .fotouniverso img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotouniverso:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .fotoorigen img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotoorigen:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+}
+
+.container-galaxias {
+    padding: 15px 15px 15px 15px;
+    
+    .titulo {
+        @extend %titulos;
+    }
+    
+    .distintasGalaxias {
+        @extend %titulos;
+    }
+    
+    .galaxiaEspiral {
+        @extend %flex;
+    }
+    
+    .fotogalaxiaespiral img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotogalaxiaespiral:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .galaxiaEliptica {
+        @extend %flex;
+    }
+    
+    .fotogalaxiaelip img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotogalaxiaelip:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .galaxiaIrregular {
+        @extend %flex;
+    }
+    
+    .fotogalaxiairreg img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotogalaxiairreg:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .quasar {
+        @include otros(flex,column,center,40px 0px 0px 10px)
+    }
+    
+    .fotoquasar img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotoquasar:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .viaLactea {
+        @include otros(flex,column,center,40px 0px 0px 10px)
+    }
+    
+    .fotovialactea img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes) ;
+    }
+    
+    .fotovialactea:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+
+}
+
+.container-elsol {
+    padding: 15px 15px 15px 15px;
+    
+    .elSol {
+        @extend %titulos;
+    }
+    
+    .nuestraEstrella {
+        @extend %titulos;
+    }
+    
+    .fotodelSol img {
+        border: map-get($colores, bordes);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .fotodelSol:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .sistemasolar img {
+        border: map-get($colores, bordes);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sistemasolar:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+}
+
+.container-tierra {
+    padding: 15px 15px 15px 15px;
+    
+    .fotodelatierra img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+    }
+    
+    .fotodelatierra:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+    
+    .nuestroplaneta img {
+        height: 100%;
+        width: 100%;
+        border: map-get($colores, bordes);
+        
+        
+    }
+    
+    .nuestroplaneta:hover {
+        box-shadow: map-get($colores , sombracaja);
+    }
+}
+
+.container-galeria {
+    padding: 15px 15px 15px 15px;
+    
+    .agujeronegrosupermasivo img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .andromeda img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .hombreenlaluna img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .hombreenlaluna2 img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .telescopio img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .canicaazul img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .jupiter img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .agujeronegroreal img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .supernova img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .lunayhombre img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+    
+    .tierrayespacio img {
+        height: 110vh;
+        width: 100%;
+        border-radius: 15px;
+        border: map-get($colores, bordes);
+    }
+
+
+
+}

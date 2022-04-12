@@ -1,10 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+.container-galaxias .galaxiaEspiral, .container-galaxias .galaxiaEliptica, .container-galaxias .galaxiaIrregular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 40px 0px 0px 10px;
+}
+
+.container-galaxias .titulo, .container-galaxias .distintasGalaxias, .container-elsol .elSol, .container-elsol .nuestraEstrella {
+  text-align: center;
+  padding: 40px 0px 0px 10px;
 }
 
 body {
@@ -14,152 +25,97 @@ body {
   color: white;
 }
 
-body .container-header .logo {
+.container-header .logo {
   height: 150px;
   margin-left: 60px;
   border-radius: 70px;
 }
 
-body .container-header nav {
+.container-header nav {
   border-radius: 10px;
-  border: 2px solid white;
+  border: solid 1px white;
 }
 
-body .container-header nav ul {
+.container-header nav ul {
   list-style: none;
   font-weight: bold;
   padding: 10px 0px 10px 8px;
 }
 
-body .container-header nav ul li {
+.container-header nav ul li {
   display: inline;
   padding: 15px;
 }
 
-body .container-header nav ul li a {
+.container-header nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
 
-body .container-index {
+.container-index {
   padding: 15px 15px 15px 15px;
 }
 
-body .container-index .fotouniverso img {
+.container-index .fotouniverso img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-index .fotouniverso:hover {
+.container-index .fotouniverso:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-index .fotoorigen img {
+.container-index .fotoorigen img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-index .fotoorigen:hover {
+.container-index .fotoorigen:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-galaxias {
+.container-galaxias {
   padding: 15px 15px 15px 15px;
 }
 
-body .container-galaxias .titulo {
-  text-align: center;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-galaxias .distintasGalaxias {
-  text-align: center;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-galaxias .galaxiaEspiral {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-galaxias .fotogalaxiaespiral img {
+.container-galaxias .fotogalaxiaespiral img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-galaxias .fotogalaxiaespiral:hover {
+.container-galaxias .fotogalaxiaespiral:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-galaxias .galaxiaEliptica {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-galaxias .fotogalaxiaelip img {
+.container-galaxias .fotogalaxiaelip img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-galaxias .fotogalaxiaelip:hover {
+.container-galaxias .fotogalaxiaelip:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-galaxias .galaxiaIrregular {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-galaxias .fotogalaxiairreg img {
+.container-galaxias .fotogalaxiairreg img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-galaxias .fotogalaxiairreg:hover {
+.container-galaxias .fotogalaxiairreg:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-galaxias .quasar {
+.container-galaxias .quasar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,18 +129,18 @@ body .container-galaxias .quasar {
   padding: 40px 0px 0px 10px;
 }
 
-body .container-galaxias .fotoquasar img {
+.container-galaxias .fotoquasar img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-galaxias .fotoquasar:hover {
+.container-galaxias .fotoquasar:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-galaxias .viaLactea {
+.container-galaxias .viaLactea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,179 +151,175 @@ body .container-galaxias .viaLactea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 40px 0px 0px 10px;
 }
 
-body .container-galaxias .fotovialactea img {
+.container-galaxias .fotovialactea img {
   height: 100%;
   width: 100%;
-  border: white solid 1px;
+  border: solid 1px white;
 }
 
-body .container-galaxias .fotovialactea:hover {
+.container-galaxias .fotovialactea:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-elsol {
+.container-elsol {
   padding: 15px 15px 15px 15px;
 }
 
-body .container-elsol .elSol {
-  text-align: center;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-elsol .nuestraEstrella {
-  text-align: center;
-  padding: 40px 0px 0px 10px;
-}
-
-body .container-elsol .fotodelSol img {
+.container-elsol .fotodelSol img {
   border: solid 1px white;
   height: 100%;
   width: 100%;
 }
 
-body .container-elsol .fotodelSol:hover {
+.container-elsol .fotodelSol:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-elsol .sistemasolar img {
+.container-elsol .sistemasolar img {
   border: solid 1px white;
   height: 100%;
   width: 100%;
 }
 
-body .container-elsol .sistemasolar:hover {
+.container-elsol .sistemasolar:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-tierra {
+.container-tierra {
   padding: 15px 15px 15px 15px;
 }
 
-body .container-tierra .fotodelatierra img {
+.container-tierra .fotodelatierra img {
   height: 100%;
   width: 100%;
   border: solid 1px white;
 }
 
-body .container-tierra .fotodelatierra:hover {
+.container-tierra .fotodelatierra:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-tierra .nuestroplaneta img {
+.container-tierra .nuestroplaneta img {
   height: 100%;
   width: 100%;
   border: solid 1px white;
 }
 
-body .container-tierra .nuestroplaneta:hover {
+.container-tierra .nuestroplaneta:hover {
   -webkit-box-shadow: 1px 3px 5px 5px gray;
           box-shadow: 1px 3px 5px 5px gray;
 }
 
-body .container-galeria {
+.container-galeria {
   padding: 15px 15px 15px 15px;
 }
 
-body .container-galeria .agujeronegrosupermasivo img {
+.container-galeria .agujeronegrosupermasivo img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .andromeda img {
+.container-galeria .andromeda img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .hombreenlaluna img {
+.container-galeria .hombreenlaluna img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .hombreenlaluna2 img {
+.container-galeria .hombreenlaluna2 img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .telescopio img {
+.container-galeria .telescopio img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .canicaazul img {
+.container-galeria .canicaazul img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .jupiter img {
+.container-galeria .jupiter img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .agujeronegroreal img {
+.container-galeria .agujeronegroreal img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .supernova img {
+.container-galeria .supernova img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .lunayhombre img {
+.container-galeria .lunayhombre img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-galeria .tierrayespacio img {
+.container-galeria .tierrayespacio img {
   height: 110vh;
   width: 100%;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-body .container-contacto {
+.container-contacto {
   padding: 30px 15px 15px 15px;
 }
 
-body .container-contacto .formularioparallenar {
+.container-contacto .formularioparallenar {
   text-align: center;
   border-radius: 40px;
   background: rgba(15, 27, 114, 0.84);
-  color: white(0, 0, 0);
+  color: white;
 }
 
-body .container-contacto .logopaginawep img {
+.container-contacto .logopaginawep img {
   height: 100%;
   width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

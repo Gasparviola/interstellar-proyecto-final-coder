@@ -1,0 +1,36 @@
+.container-header{
+        
+    .logo {
+        height: 150px;
+        margin-left: 60px;
+        border-radius: 70px;
+    }
+    
+    nav{
+        border-radius: 10px;
+        border: map-get($colores, bordes);
+        
+        
+        ul {
+            list-style: none;
+            font-weight: bold;
+            padding: 10px 0px 10px 8px;
+            
+            li {
+                display: inline;
+                padding: 15px;                
+                
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                } 
+            
+            }
+        
+        }
+    
+    
+    }
+    
+
+}
